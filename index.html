@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Dev Teste</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navV">
+            <div class="containerR">
+
+
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#scary-numbers">Números</a></li>
+                        <li><a href="#solutions">Soluções</a></li>
+                        <li><a id="destaque-game" href="http://127.0.0.1:5501/educa%C3%A7%C3%A3o.html">Portal</a></li>
+                    </ul>
+                </div>
+
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="list">
+            <div class="list-item">
+                <img src="./img-slide/6647610.jpg" alt="Imagem 1">
+                <div class="content">
+                    <h2 class="title">ALERTA AZUL</h2>
+                    <p class="description">Das suas mãos ao mar: todo o lixo que produzimos encontra o caminho para os oceanos. Entenda o ciclo de contaminação, o impacto nas mudanças climáticas e como você pode ser parte da solução.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="./img-slide/ilustracao-aquecimento-global.jpg" alt="Imagem 4">
+                <div class="content">
+                    <h2 class="title">O PLANETA É ÁGUA</h2>
+                    <p class="description">E 71% dele está contaminado. Conheça a origem da poluição plástica, os dados alarmantes sobre a contaminação e projetos de ciência que lutam para despoluir nosso maior recurso.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="arrows">
+            <button class="back">
+                < </button>
+                    <button class="next"> > </button>
+        </div>
+
+    </main>
+
+
+    <section class="about" id="about">
+        <h2 class="title">Micro<span>plásticos</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="./img-slide/5.png" alt="sobre-nos">
+            </div>
+            <div class="content">
+                <h3>MICROPLÁSTICOS: DE ONDE VÊM?</h3>
+                <p>Os microplásticos são partículas com menos de 5 milímetros, invisíveis a olho nu, mas presentes em praticamente todo o ambiente aquático. Eles não são apenas resultado da fragmentação de garrafas e embalagens jogadas nas praias; grande parte vem da lavagem de roupas sintéticas, da abrasão de pneus e de produtos de higiene, atingindo rios e oceanos de forma silenciosa.</p>
+                <p>Uma vez na água, essas partículas são ingeridas por peixes e outros organismos, entrando na cadeia alimentar. Estudos mostram que os microplásticos, além de tóxicos, podem liberar produtos químicos perigosos no ecossistema e em nossos corpos, tornando-se um dos maiores desafios para a saúde do Planeta Água.</p>
+                <a href="" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="scary-numbers" id="scary-numbers">
+        <div class="scary-numbers-background"></div>
+        <h2 class="title">Números que <span>Assustam</span></h2>
+        <div class="numbers-container">
+
+            <div class="number-card">
+                <div class="card-inner">
+                    <div class="main-content">
+                        <span class="number" data-target="8">0</span>
+                        <span class="unit">Milhões de Toneladas</span>
+                        <p class="description">De plástico entram nos oceanos anualmente</p>
+                    </div>
+                    <div class="hover-balloon" style="background: linear-gradient(135deg, #d3ad7f, #b38e65);">
+                        <h4>Impacto Anual</h4>
+                        <p>Essa quantidade massiva de plástico não só polui, mas também ameaça a vida marinha e os
+                            ecossistemas oceânicos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="number-card">
+                <div class="card-inner">
+                    <div class="main-content">
+                        <span class="number" data-target="700">0</span>
+                        <span class="unit">Espécies Afetadas</span>
+                        <p class="description">De animais marinhos por poluição plástica</p>
+                    </div>
+                    <div class="hover-balloon" style="background: linear-gradient(135deg, #FF6B6B, #EE4D4D);">
+                        <h4>Biodiversidade em Risco</h4>
+                        <p>Desde pequenos plânctons até grandes mamíferos, a cadeia alimentar é gravemente impactada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="number-card">
+                <div class="card-inner">
+                    <div class="main-content">
+                        <span class="number" data-target="94">0</span>
+                        <span class="unit">Porcentagem</span>
+                        <p class="description">Da água potável contaminada com microplásticos</p>
+                    </div>
+                    <div class="hover-balloon" style="background: linear-gradient(135deg, #4ECDC4, #3CB3A6);">
+                        <h4>Sua Água, Seu Corpo</h4>
+                        <p>Microplásticos são encontrados em praticamente todas as fontes de água, afetando nossa saúde
+                            de formas ainda desconhecidas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="number-card">
+                <div class="card-inner">
+                    <div class="main-content">
+                        <span class="number" data-target="500">0</span>
+                        <span class="unit">Anos</span>
+                        <p class="description">Para um plástico se decompor no oceano</p>
+                    </div>
+                    <div class="hover-balloon" style="background: linear-gradient(135deg, #FED766, #FBBF24);">
+                        <h4>Legado Duradouro</h4>
+                        <p>O plástico que descartamos hoje permanecerá no ambiente por muitas gerações futuras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-grafico">
+    <div class="container">
+        <h2 class="title">As Fontes <span>do Problema</span></h2>
+        <p class="subtitulo-grafico">
+            Conheça as principais origens dos Microplásticos Primários liberados anualmente no ambiente marinho. (Fonte: Adaptação de estudos do Parlamento Europeu)
+        </p>
+        
+        <div class="grafico-barras">
+            
+            <div class="barra-item">
+                <span class="label">Fibras Têxteis (Roupas Sintéticas)</span>
+                <div class="barra-fundo">
+                    <div class="barra-progresso" style="width: 0%; background-color: #8c7ae6;" data-porcentagem="35"></div>
+                </div>
+                <span class="porcentagem">35%</span>
+                <div class="hover-balloon-grafico">
+                    <h4>Roupas Sintéticas</h4>
+                    <p>Fibras liberadas na lavagem, acumulando-se em ecossistemas e na água potável.</p>
+                </div>
+            </div>
+
+            <div class="barra-item">
+                <span class="label">Desgaste de Pneus (Trânsito)</span>
+                <div class="barra-fundo">
+                    <div class="barra-progresso" style="width: 0%; background-color: #34495e;" data-porcentagem="28"></div>
+                </div>
+                <span class="porcentagem">28%</span>
+                <div class="hover-balloon-grafico">
+                    <h4>Pneus e Estradas</h4>
+                    <p>Pequenas partículas de borracha e plástico que se desprendem e escoam para rios e oceanos.</p>
+                </div>
+            </div>
+
+            <div class="barra-item">
+                <span class="label">Poeira de Cidades / Partículas</span>
+                <div class="barra-fundo">
+                    <div class="barra-progresso" style="width: 0%; background-color: #5d677a;" data-porcentagem="24"></div>
+                </div>
+                <span class="porcentagem">24%</span>
+                <div class="hover-balloon-grafico">
+                    <h4>Poluição Urbana</h4>
+                    <p>Partículas de plásticos e outras fontes liberadas na atmosfera e depositadas no ambiente.</p>
+                </div>
+            </div>
+
+            <div class="barra-item">
+                <span class="label">Microesferas (Cosméticos e PHP)</span>
+                <div class="barra-fundo">
+                    <div class="barra-progresso" style="width: 0%; background-color: #f1c40f;" data-porcentagem="2"></div>
+                </div>
+                <span class="porcentagem">2%</span>
+                <div class="hover-balloon-grafico">
+                    <h4>Produtos de Higiene Pessoal</h4>
+                    <p>Pequenas esferas de plástico adicionadas a esfoliantes, pastas de dente, que vão direto para a água.</p>
+                </div>
+            </div>
+            
+             <div class="barra-item">
+                <span class="label">Outras Fontes (Pellets, Tintas, etc.)</span>
+                <div class="barra-fundo">
+                    <div class="barra-progresso" style="width: 0%; background-color: #3f9c6d;" data-porcentagem="11"></div>
+                </div>
+                <span class="porcentagem">11%</span>
+                <div class="hover-balloon-grafico">
+                    <h4>Diversas Origens</h4>
+                    <p>Fragmentos de tintas, pellets industriais, e outros plásticos que chegam ao ambiente.</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="grafico-legenda">
+            <p><strong>Conclusão Rápida:</strong> Ações cotidianas como a lavagem de roupas sintéticas e o trânsito são responsáveis pela maior parte da poluição, destacando a necessidade de soluções de filtragem urbana e doméstica.</p>
+        </div>
+    </div>
+</section>
+
+    <section class="solutions" id="solutions">
+        <div class="solutions-wave-background"></div>
+
+        <div class="solutions-content-wrapper">
+            <div class="solutions-image-col">
+                <img src="./img/sobre.jpg" alt="Ilustração de Análise de Dados" class="solutions-main-image">
+            </div>
+
+            <div class="solutions-cards-col">
+                <h2 class="title solutions-title">Soluções <span>Existentes</span></h2>
+
+                <div class="solution-card">
+                    <div class="card-icon"></div>
+                    <div class="card-text">
+                        <h4>Projeto MicroMar</h4>
+                        <p>Iniciativa brasileira focada na monitorização e caracterização da poluição por microplásticos no Atlântico Sul. Transforma dados brutos em conhecimento essencial para a conservação marinha.</p>
+                        <a href="#" class="btn-small">Saber Mais</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="card-icon"></div>
+                    <div class="card-text">
+                        <h4>B.A.R.B.I.E. 4.0</h4>
+                        <p>Plataforma tecnológica escalável que desenvolve soluções de engenharia, como barreiras automatizadas, para a coleta de lixo flutuante em rios e reservatórios.</p>
+                        <a href="#" class="btn-small">Saber Mais</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="card-icon"></div>
+                    <div class="card-text">
+                        <h4>Economia Circular</h4>
+                        <p>Visão completa do desempenho de materiais, focada em manter produtos e materiais em uso pelo maior tempo possível. Reduz drasticamente o descarte que atinge os oceanos.</p>
+                        <a href="#" class="btn-small">Entenda o Ciclo</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="card-icon"></div>
+                    <div class="card-text">
+                        <h4>Consumo Consciente</h4>
+                        <p>Aumente a visibilidade de alternativas sustentáveis e gere menos lixo. Pequenas mudanças nas suas escolhas diárias têm um impacto direto e imediato na preservação do Planeta Água.</p>
+                        <a href="#" class="btn-small">VEJA DICAS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-col footer-col-nav">
+                <h4 class="footer-title">Explorar</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#scary-numbers">Números</a></li>
+                    <li><a href="#solutions">Soluções</a></li>
+                    <li><a id="destaque-game" href="http://127.0.0.1:5501/educa%C3%A7%C3%A3o.html">Portal</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-contact">
+                <h4 class="footer-title">Fale Conosco</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Pernambuco, Paulista, Brasil</li>
+                    <li><i class="fas fa-phone"></i> +55 (99) 99999-9999</li>
+                    <li><i class="fas fa-envelope"></i> eco.i@gmail.com</li>
+                </ul>
+                <p class="footer-hours">Menos Feriados :)</p>
+            </div>
+
+            <div class="footer-col footer-col-social">
+    <h4 class="footer-title">Siga-nos</h4>
+    <div class="footer-social-links">
+        <a href="#" class="social-icon">
+            <img width="40" height="40" src="https://img.icons8.com/color/40/facebook-new.png" alt="Facebook"/>
+        </a>
+        <a href="#" class="social-icon">
+            <img width="40" height="40" src="https://img.icons8.com/pulsar-color/40/twitterx.png" alt="X"/>
+        </a>
+        <a href="#" class="social-icon">
+            <img width="40" height="40" src="https://img.icons8.com/fluency/40/instagram-new.png" alt="Instagram"/>
+        </a>
+        <a href="#" class="social-icon">
+            <img width="40" height="40" src="https://img.icons8.com/pulsar-color/40/linkedin.png" alt="LinkedIn"/>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 ECO.I Todos os direitos reservados. | Desenvolvido com 💻</p>
+        </div>
+    </footer>
+
+
+    <script>
+        window.addEventListener("scroll", function () {
+            const nav = document.querySelector(".navV");
+            if (window.scrollY > 50) {
+                nav.classList.add("affix");
+            } else {
+                nav.classList.remove("affix");
+            }
+        });
+    </script>
+
+
+
+    <script>
+        // Menu toggle
+        const navTrigger = document.querySelector('.navTrigger');
+        const mainListDiv = document.querySelector('#mainListDiv');
+
+        navTrigger.addEventListener('click', () => {
+            navTrigger.classList.toggle('active');
+            mainListDiv.classList.toggle('show_list');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('affix');
+            } else {
+                nav.classList.remove('affix');
+            }
+        });
+    </script>
+
+    <script>
+        const navToggle = document.querySelector('.header--nav-toggle');
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('is-active');
+        });
+    </script>
+    <script src="script.js"></script>
+
+    <button id="backToTopBtn" class="back-to-top-btn">
+    &#9650;
+</button>
+</body>
+
+</html>
